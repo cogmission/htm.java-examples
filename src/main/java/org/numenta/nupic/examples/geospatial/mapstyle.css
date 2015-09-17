@@ -1,0 +1,53 @@
+.button {
+    -fx-background-color:
+        gray,
+        linear-gradient(to bottom, rgb(117,117,117) 0%, black 100%);
+    
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 12px;
+    -fx-text-alignment: center;
+//    -fx-padding: 5 5 5 5;
+}
+
+.combo-box {
+    -fx-background-color:
+        gray,
+        linear-gradient(to bottom, rgb(117,117,117) 0%, black 100%);
+    
+    -fx-background-radius: 5,4,3,5;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-padding: 1 1 1 5;
+}
+
+.combo-box .list-cell {
+    -fx-background-color:
+        linear-gradient(to bottom, rgb(117,117,117) 0%, black 100%);
+    
+    -fx-text-fill: white;
+    -fx-font-family: "Arial";
+    -fx-font-size: 12px;
+}
+
+.combo-box .arrow {
+    -fx-background-color: white;
+}
+
+.tool-bar {
+    -fx-spacing: 10; 
+    -fx-border-radius: 10 10 0 0; 
+    -fx-background-radius: 10 10 0 0; 
+    -fx-border-color: rgb(117,117,117);
+    -fx-background-color: 
+        linear-gradient(to bottom, rgb(100,100,100) 0%, rgb(30,30,30) 100%);
+}
+
+.borderpane {
+    -fx-border-radius: 5 5 5 5;
+    -fx-background-radius: 5 5 5 5;
+}
